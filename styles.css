@@ -3,10 +3,34 @@ header, section, #footer{
     margin: auto;
 }
 
+/*header*/
 header{
     background-color: orange;
     height: 410px;
+}
+
+/*zone superieure du header avec le logo et la nagivaiton*/
+header #bandeau{
     display: flex;
+    align-items: flex-start;
+}
+
+header #logo{
+    background-color: blueviolet;
+    width: 20%;
+    height: 50px;
+}
+
+header nav{
+    margin-left: auto;
+}
+
+header ul{
+    list-style-type: none;
+    display: flex;
+}
+header li{
+    margin-left: 10px;
 }
 
 /*Section hébergements et populaires*/
