@@ -8,7 +8,6 @@ header{
     display: flex;
     flex-direction: row;
     flex-flow: row wrap-reverse;
-    justify-content: space-around;
 }
 
 #hebergements{
@@ -56,4 +55,23 @@ header{
 footer{
     background-color: #F2F2F2;
     height: 217px;
+    display: flex;
+}
+
+#a_propos{
+    background-color: blue;
+    width: 30%;
+    height: 200px;
+}
+
+#nos_hebergements{
+    background-color: yellow;
+    width: 30%;
+    height: 200px;
+}
+
+#assistance{
+    background-color: blue;
+    width: 30%;
+    height: 200px;
 }
