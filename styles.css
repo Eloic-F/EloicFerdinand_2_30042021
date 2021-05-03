@@ -1,6 +1,12 @@
+header, section, #footer{
+    width: 95%;
+    margin: auto;
+}
+
 header{
     background-color: orange;
     height: 410px;
+    display: flex;
 }
 
 /*Section hébergements et populaires*/
@@ -51,11 +57,14 @@ header{
 }
 
 /*Footer*/
-
 footer{
     background-color: #F2F2F2;
+}
+
+footer #footer{
     height: 217px;
     display: flex;
+    margin: auto;
 }
 
 #a_propos{
