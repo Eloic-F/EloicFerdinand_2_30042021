@@ -18,14 +18,15 @@ header{
 
 #hebergements{
     background-color: blue;
-    width: 64%;
+    flex: 2;
     height: 625px;
 }
 
 #populaires{
     background-color: #F2F2F2;
-    width: 30%;
+    flex: 1;
     height: 625px;
+    margin-left: 4%;
 }
 
 /*Section activités*/
