@@ -21,16 +21,34 @@ header #logo{
     height: 50px;
 }
 
-header nav{
+nav{
     margin-left: auto;
 }
 
-header ul{
+#elem_nav{
     list-style-type: none;
     display: flex;
 }
-header li{
+#elem_nav li{
     margin-left: 10px;
+}
+
+/*Filtre du header*/
+
+#filtres{
+    background-color: burlywood;
+    width: 40%;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+#elem_filtres{
+    list-style-type: none;
+    display: flex;
+}
+
+#filtres li{
+    margin-right: 30px;
 }
 
 /*Section hébergements et populaires*/
