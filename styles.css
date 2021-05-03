@@ -32,22 +32,18 @@ header{
 /*Section activités*/
 
 #activites{
-    background-color: brown;
     height: 632px;
 }
 
 #flex_activites{
-    background-color: green;
-    height: 445px;
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
 }
 
 #activites1{
     background-color: chocolate;
     width: 40%;
     height: 445px;
+    flex: 1;
 
 }
 
@@ -55,6 +51,8 @@ header{
     background-color: crimson;
     width: 40%;
     height: 445px;
+    flex: 1;
+    margin-left: 4%;
 }
 
 /*Footer*/
