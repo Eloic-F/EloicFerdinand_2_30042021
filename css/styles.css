@@ -106,14 +106,15 @@ main{
     height: 632px;
     display: flex;
     justify-content: space-between;
+    gap: 20px;
 }
 
 #activites1{
     height: 445px;
     flex: 1;
     display: flex;
-    flex-flow: row wrap;
     justify-content: space-between;
+    gap: 20px;
 }
 
 .img_activites1{
@@ -125,6 +126,7 @@ main{
     display: flex;
     flex-direction: column;
     flex: 1;
+    gap: 20px;
 }
 .img_activites2{
     background-color: darkgoldenrod;
