@@ -109,15 +109,14 @@ main{
     gap: 20px;
 }
 
-#activites1{
+#activites1, #activites2{
     height: 445px;
     flex: 1;
     display: flex;
-    justify-content: space-between;
     gap: 20px;
 }
 
-.img_activites1{
+.img_activites1, .img_activites4{
     background-color: cadetblue;
     height: auto;
     flex: 1;
@@ -128,19 +127,13 @@ main{
     flex: 1;
     gap: 20px;
 }
-.img_activites2{
+.img_activites2, .img_activites6{
     background-color: darkgoldenrod;
     flex: 4;
 }
-.img_activites3{
+.img_activites3, .img_activites5{
     background-color: navy;
     flex: 3;
-}
-
-#activites2{
-    background-color: crimson;
-    height: 445px;
-    flex: 1;
 }
 
 /*Footer*/
