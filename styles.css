@@ -120,27 +120,13 @@ main{
 /*Footer*/
 footer{
     background-color: #F2F2F2;
-}
-
-footer #footer{
     height: 217px;
     display: flex;
-    margin: auto;
+    justify-content: space-between;
+    padding: 0 2.5%;
 }
 
-#a_propos{
-    background-color: blue;
-    width: 30%;
-    height: 200px;
-}
-
-#nos_hebergements{
-    background-color: yellow;
-    width: 30%;
-    height: 200px;
-}
-
-#assistance{
+.footer_box{
     background-color: blue;
     width: 30%;
     height: 200px;
