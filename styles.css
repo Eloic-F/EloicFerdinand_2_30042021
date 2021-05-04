@@ -1,3 +1,8 @@
+/*marges du body*/
+body{
+    margin: 0;
+}
+
 /*header*/
 header{
     background-color: orange;
