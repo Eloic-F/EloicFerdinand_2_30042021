@@ -86,8 +86,18 @@ main{
 
 #populaires{
     background-color: #F2F2F2;
-    flex: 1;
     height: 625px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    flex: 1;
+}
+
+.img_populaires{
+    background-color: white;
+    width: 80%;
+    height: 143px;
 }
 
 /*Section activités*/
