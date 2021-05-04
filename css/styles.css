@@ -29,9 +29,13 @@ nav{
 #elem_nav{
     list-style-type: none;
     display: flex;
+    margin-top: 0;
 }
-#elem_nav li{
-    margin-left: 10px;
+
+nav li{
+    margin-left: 5em;
+    margin-top: 0;
+    padding: 40px 15px 0;
 }
 
 /*Filtre du header*/
