@@ -17,9 +17,8 @@ header #bandeau{
 }
 
 header #logo{
-    background-color: blueviolet;
     width: 20%;
-    height: 50px;
+    padding-top: 45px;
 }
 
 nav{
