@@ -104,26 +104,41 @@ main{
 
 #activites{
     height: 632px;
-}
-
-#flex_activites{
     display: flex;
+    justify-content: space-between;
 }
 
 #activites1{
-    background-color: chocolate;
-    width: 40%;
     height: 445px;
     flex: 1;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+}
 
+.img_activites1{
+    background-color: cadetblue;
+    height: auto;
+    flex: 1;
+}
+.img_1c_2r{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+.img_activites2{
+    background-color: darkgoldenrod;
+    flex: 4;
+}
+.img_activites3{
+    background-color: navy;
+    flex: 3;
 }
 
 #activites2{
     background-color: crimson;
-    width: 40%;
     height: 445px;
     flex: 1;
-    margin-left: 4%;
 }
 
 /*Footer*/
