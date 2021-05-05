@@ -82,8 +82,13 @@ main{
     display: flex;
     flex-direction: column;
 }
+
+#heberg_head, #img_hebergements, #heberg_footer{
+    width: 770px;
+    margin: 0 auto;
+}
+
 #img_hebergements{
-    width: 800px;
     height: 430px;
     display: flex;
     flex-flow: row wrap;
