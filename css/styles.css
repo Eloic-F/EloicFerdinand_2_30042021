@@ -102,14 +102,22 @@ main{
     height: 625px;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
-    align-items: center;
-    flex: 1;
+}
+#pop_head{
+    display: inline-flex;
+    justify-content: space-between;
 }
 
-.img_populaires{
+#img_populaires{
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.img_populaire{
     background-color: white;
-    width: 80%;
+    width: 345px;
     height: 143px;
 }
 
