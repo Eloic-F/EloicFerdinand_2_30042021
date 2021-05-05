@@ -47,13 +47,11 @@ nav li{
 
 #filtres{
     background-color: burlywood;
-    width: 40%;
+    width: 65%;
+    height: 48px;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-}
-#elem_filtres{
-    list-style-type: none;
-    display: flex;
 }
 
 #filtres li{
