@@ -101,12 +101,18 @@ main{
     height: 200px;
 }
 
+/*Populaires*/
 #populaires{
     background-color: #F2F2F2;
     width: 420px;
     height: 625px;
     display: flex;
     flex-direction: column;
+}
+
+#pop_head, #img_populaires, #img_populaire{
+    width: 345px;
+    margin: 0 auto;
 }
 #pop_head{
     display: inline-flex;
@@ -122,7 +128,6 @@ main{
 
 .img_populaire{
     background-color: white;
-    width: 345px;
     height: 143px;
 }
 
