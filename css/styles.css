@@ -62,6 +62,11 @@ nav li{
     gap: 3em;
 }
 
+/*Icônes header*/
+#filtres i, #informations i{
+    color: #0065fc;
+}
+
 /*ajustement des marges dans la partie main*/
 main{
     width: 95%;
