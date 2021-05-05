@@ -70,14 +70,19 @@ main{
 
 /*Section hébergements et populaires*/
 #heberg_pop{
-    background-color: brown;
     height: 625px;
     display: flex;
 }
 
 /*Partie hébergements*/
 #hebergements{
-    background-color: blue;
+    background-color: brown;
+    width: 850px;
+    height: 625px;
+    display: flex;
+    flex-direction: column;
+}
+#img_hebergements{
     width: 800px;
     height: 430px;
     display: flex;
@@ -93,6 +98,7 @@ main{
 
 #populaires{
     background-color: #F2F2F2;
+    width: 420px;
     height: 625px;
     display: flex;
     flex-direction: column;
