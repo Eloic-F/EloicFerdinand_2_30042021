@@ -73,26 +73,21 @@ main{
     background-color: brown;
     height: 625px;
     display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
 }
 
 /*Partie hébergements*/
 #hebergements{
     background-color: blue;
-    width: 100%;
-    height: 500px;
+    width: 800px;
+    height: 430px;
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: center;
-    flex: 2;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
 .img_hebergement{
     background-color: white;
-    width: 30%;
+    width: 245px;
     height: 200px;
 }
 
