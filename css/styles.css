@@ -38,9 +38,8 @@ nav li{
 }
 /*Barre de recherche*/
 #barre_recherche{
-    background-color: black;
-    display: flex;
-    width: 30%;
+    background-color: grey;
+    display: inline-flex;
     height: 50px;
 }
 
