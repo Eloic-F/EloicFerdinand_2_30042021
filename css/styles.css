@@ -36,6 +36,13 @@ nav li{
     margin-top: 0;
     padding: 40px 15px 0;
 }
+/*Barre de recherche*/
+#barre_recherche{
+    background-color: black;
+    display: flex;
+    width: 30%;
+    height: 50px;
+}
 
 /*Filtre du header*/
 
