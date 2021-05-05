@@ -68,6 +68,11 @@ main{
     margin: auto;
 }
 
+/*Border-radius*/
+main div{
+    border-radius: 20px;
+}
+
 /*Section hébergements et populaires*/
 #heberg_pop{
     height: 625px;
