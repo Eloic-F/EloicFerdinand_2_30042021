@@ -54,6 +54,14 @@ nav li{
     align-items: center;
 }
 
+/* Informations*/
+#informations{
+    background-color: indianred;
+    display: inline-flex;
+    align-items: center;
+    gap: 3em;
+}
+
 /*ajustement des marges dans la partie main*/
 main{
     width: 95%;
