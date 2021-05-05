@@ -54,10 +54,6 @@ nav li{
     align-items: center;
 }
 
-#filtres li{
-    margin-right: 30px;
-}
-
 /*ajustement des marges dans la partie main*/
 main{
     width: 95%;
