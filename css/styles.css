@@ -182,10 +182,11 @@ main div{
 }
 
 #pop_head, #img_populaires{
-    margin: 0 2em;
+    margin: 0 auto;
 }
 
 #pop_head{
+    width: 345px;
     display: inline-flex;
     justify-content: space-between;
     align-items: center;
@@ -199,6 +200,7 @@ main div{
 }
 
 .img_populaire{
+    width: 345px;
     background-color: white;
     height: 143px;
 }
