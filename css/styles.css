@@ -36,6 +36,11 @@ nav li{
     margin-top: 0;
     padding: 40px 15px 0;
 }
+
+nav span{
+    color: #0065fc;
+}
+
 /*Barre de recherche*/
 #barre_recherche{
     display: inline-flex;
