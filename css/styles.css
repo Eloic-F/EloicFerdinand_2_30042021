@@ -74,7 +74,7 @@ input, button{
 }
 
 .elem_filtres{
-    border:1px solid #d9d9d9;
+    border:2px solid #d9d9d9;
     display: inline-flex;
     align-items: center;
     padding-right: 0.8em;
@@ -86,8 +86,9 @@ input, button{
 
 #filtres i{
     background-color: #deebff;
+    border:2px solid #deebff;
     padding: 0.5em;
-    margin-right: 0.5em;
+    margin: -2px 0.5em -2px -2px;
 }
 
 /* Informations*/
