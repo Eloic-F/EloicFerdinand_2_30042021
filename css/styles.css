@@ -78,16 +78,18 @@ input, button{
     display: inline-flex;
     align-items: center;
     padding-right: 0.8em;
-}
-
-.elem_filtres, #filtres i{
     border-radius: 30px;
 }
 
 #filtres i{
     background-color: #deebff;
     border:2px solid #deebff;
-    padding: 0.5em;
+    width: 35px;
+    height: 35px;
+    display: inline-flex;
+    justify-content: center ;
+    align-items: center;
+    border-radius: 50%;
     margin: -2px 0.5em -2px -2px;
 }
 
