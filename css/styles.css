@@ -56,10 +56,6 @@ input, button{
     border-radius: 10px 0 0 10px;
 }
 
-#search{
-    background-color: white;
-}
-
 #submit{
     background-color: #0065fc;
     color: white;
