@@ -5,7 +5,6 @@ body{
 
 /*header*/
 header{
-    background-color: orange;
     padding: 0 2.5%;
     margin-bottom: 2em;
 }
@@ -67,7 +66,6 @@ input, button{
 /*Filtre du header*/
 
 #filtres{
-    background-color: burlywood;
     width: 65%;
     height: 48px;
     display: flex;
@@ -101,7 +99,6 @@ input, button{
 
 /* Informations*/
 #informations{
-    background-color: indianred;
     display: inline-flex;
     align-items: center;
     gap: 1em;
