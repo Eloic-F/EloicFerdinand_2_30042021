@@ -202,20 +202,19 @@ main div{
 
 #activites{
     display: flex;
-    justify-content: space-between;
+    gap: 2em;
 }
 
-#activites_container{
-    width: 625px;
+#activites_container_l, #activites_container_r{
     height: 445px;
     display: flex;
     justify-content: space-between;
+    flex: 1;
 }
 
 .img_large{
     background-color: cadetblue;
     width: 300px;
-    height: auto;
 }
 
 .img_split{
