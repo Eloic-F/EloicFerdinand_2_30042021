@@ -79,6 +79,7 @@ input, button{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-top: 1.5em;
 }
 
 .elem_filtres{
@@ -101,15 +102,12 @@ input, button{
     margin: -2px 0.5em -2px -2px;
 }
 
-#filtres, #informations{
-    margin-top: 1.5em;
-}
-
 /* Informations*/
 #informations{
     display: inline-flex;
     align-items: center;
     gap: 1em;
+    margin-top: 0.5em;
 }
 
 #informations i{
