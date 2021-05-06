@@ -6,8 +6,8 @@ body{
 /*header*/
 header{
     background-color: orange;
-    height: 410px;
     padding: 0 2.5%;
+    margin-bottom: 2em;
 }
 
 /*zone superieure du header avec le logo et la nagivaiton*/
@@ -96,6 +96,10 @@ input, button{
     align-items: center;
     border-radius: 50%;
     margin: -2px 0.5em -2px -2px;
+}
+
+#filtres, #informations{
+    margin-top: 1.5em;
 }
 
 /* Informations*/
