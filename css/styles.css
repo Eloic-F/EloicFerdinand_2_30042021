@@ -1,6 +1,7 @@
 /*marges du body*/
 body{
     margin: 0;
+    font-family: 'Raleway', sans-serif;
 }
 
 /*header*/
@@ -100,6 +101,10 @@ input, button{
     align-items: center;
     border-radius: 50%;
     margin: -2px 0.5em -2px -2px;
+}
+
+#filtres span{
+    font-weight: bold;
 }
 
 /* Informations*/
