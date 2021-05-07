@@ -22,10 +22,9 @@ header #logo{
 
 nav{
     width: 30%;
-    padding-top: 1.5em;
 }
 
-#elem_nav{
+nav ul{
     list-style-type: none;
     display: flex;
     justify-content: space-between;
@@ -33,7 +32,7 @@ nav{
 }
 
 nav li{
-    margin-top: 0;
+    padding-top: 2em;
 }
 
 nav span{
