@@ -20,14 +20,19 @@ header{
 header #bandeau{
     display: flex;
     justify-content: space-between;
+    gap: 2em;
 }
 
 header #logo{
     padding-top: 2.5em;
+    flex: 2;
+}
+
+header img{
 }
 
 nav{
-    width: 30%;
+    flex: 1;
 }
 
 nav ul{
@@ -35,10 +40,11 @@ nav ul{
     display: flex;
     justify-content: space-between;
     margin-top: 0;
+    padding-left: 0;
 }
 
 nav li{
-    padding-top: 2em;
+    padding: 2em 1em 0;
 }
 
 nav span{
