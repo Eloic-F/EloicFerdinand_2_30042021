@@ -1,3 +1,9 @@
+/*liens*/
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
 /*marges du body*/
 body{
     margin: 0;
