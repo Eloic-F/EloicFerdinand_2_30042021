@@ -149,7 +149,7 @@ main{
 }
 
 /*Border-radius*/
-main div{
+main div, main figure{
     border-radius: 20px;
 }
 
@@ -157,6 +157,10 @@ main div{
 #heberg_pop{
     display: flex;
     gap: 2em;
+}
+
+main figure{
+    margin: 0;
 }
 
 #hebergements, #populaires{
