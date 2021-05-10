@@ -95,6 +95,10 @@ input, button{
   border-radius: 0 15px 15px 0;
 }
 
+#submit span{
+  font-size: 1.2em;
+}
+
 /*Filtre du header*/
 
 #filtres{
