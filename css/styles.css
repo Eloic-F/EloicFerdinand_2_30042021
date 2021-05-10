@@ -99,6 +99,7 @@ input, button{
   border-right: none;
   outline: none;
   font-size: 14pt;
+  font-weight: bold;
 }
 
 #submit{
