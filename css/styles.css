@@ -173,6 +173,7 @@ main div, main figure{
 
 #heberg_pop figure{
   padding: 5px;
+  box-shadow: 0px 0px 15px #e3e3e3;
 }
 
 /*Partie hébergements*/
@@ -266,8 +267,8 @@ main div, main figure{
 }
 
 #activites figure{
-  background-color: gray;
   margin: 0;
+  box-shadow: 0 0 15px 3px #f2f2f2;
 }
 
 #activites img{
