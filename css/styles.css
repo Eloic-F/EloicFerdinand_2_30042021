@@ -10,6 +10,10 @@ nav li:hover{
   font-weight: bold;
 }
 
+#filtres p:hover{
+  box-shadow: 0 0 10px #0065fc;
+}
+
 /*liens*/
 a{
   text-decoration: none;
