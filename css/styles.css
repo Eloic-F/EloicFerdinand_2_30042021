@@ -28,6 +28,10 @@ header{
   margin-bottom: 2em;
 }
 
+h1{
+  margin-bottom: -10px;
+}
+
 /*zone superieure du header avec le logo et la nagivaiton*/
 header #bandeau{
   display: flex;
