@@ -242,7 +242,6 @@ main div, main figure{
   gap: 1em;
 }
 
-/*Notation*/
 #populaires img{
   width: 180px;
   height: 200px;
@@ -250,6 +249,7 @@ main div, main figure{
   object-fit: cover;
 }
 
+/*Notation*/
 .full_star{
   display: inline-block;
   color: #0065fc;
