@@ -265,14 +265,13 @@ main div, main figure{
 #activites{
   display: flex;
   justify-content: space-between;
-  gap: 2em;
 }
 
-#activites_container_l, #activites_container_r{
+/*#activites_container_l, #activites_container_r{
   display: flex;
-  width: 50%;
+  flex: 1;
   justify-content: space-between;
-}
+}*/
 
 #activites figure{
   margin: 0;
@@ -313,7 +312,7 @@ main div, main figure{
 }
 
 .img_small_4 img{
-  height: 200px;
+  height: 220px;
 }
 
 #activites figcaption{
