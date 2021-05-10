@@ -3,6 +3,13 @@ span, em{
   font-weight: bold;
 }
 
+/*hover*/
+nav li:hover{
+  border-top: 3px solid #0065fc;
+  color: #0065fc;
+  font-weight: bold;
+}
+
 /*liens*/
 a{
   text-decoration: none;
