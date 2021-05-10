@@ -233,11 +233,22 @@ main div, main figure{
   gap: 1em;
 }
 
+/*Notation*/
 #populaires img{
   width: 180px;
   height: 200px;
   border-radius: 20px 0 0 20px;
   object-fit: cover;
+}
+
+.full_star{
+  display: inline-block;
+  color: #0065fc;
+}
+
+.empty_star{
+  display: inline-block;
+  color: #d9d9d9;
 }
 
 /*Section activités*/
