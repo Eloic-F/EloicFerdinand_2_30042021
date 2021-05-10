@@ -336,12 +336,9 @@ footer{
   background-color: #f2f2f2;
   height: 217px;
   display: flex;
-  padding: 0 2.5%;
-  padding-top: 2em;
+  padding: 2em 2.5% 4em;
 }
 
 .footer_box{
-  align-content: flex-start;
   flex: 1;
-  height: 200px;
 }
