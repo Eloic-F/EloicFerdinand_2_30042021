@@ -172,7 +172,7 @@ main div, main figure{
 }
 
 #hebergements, #populaires{
-  padding: 2em 1.5em 4em;
+  padding: 2em 1.5em;
 }
 
 #heberg_pop figure{
@@ -209,6 +209,10 @@ main div, main figure{
 
 #hebergements figcaption{
   padding-left: 1em;
+}
+
+#footer_heberg{
+  margin-top: 2em;
 }
 
 /*Populaires*/
