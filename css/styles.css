@@ -1,3 +1,8 @@
+/*font-weight*/
+span, em{
+  font-weight: bold;
+}
+
 /*liens*/
 a{
   text-decoration: none;
@@ -109,10 +114,6 @@ input, button{
   margin-right: 0.5em;
 }
 
-#filtres span{
-  font-weight: bold;
-}
-
 /* Informations*/
 #informations{
   display: inline-flex;
@@ -155,14 +156,6 @@ main div, main figure{
   gap: 2em;
 }
 
-main figure{
-  margin: 0;
-}
-
-#hebergements, #populaires{
-  padding: 2.5em 1em 1.5em;
-}
-
 /*Partie hébergements*/
 #hebergements{
   background-color: #f2f2f2;
@@ -174,14 +167,24 @@ main figure{
 #img_hebergements{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   gap: 1em;
 }
 
-.img_hebergement{
+#hebergements figure{
   background-color: white;
-  flex: auto;
-  width: 245px;
+  margin: 0;
+}
+
+#hebergements img{
+  width: 300px;
   height: 200px;
+  border-radius: 20px 20px 0 0;
+  object-fit: cover;
+}
+
+#hebergements figcaption{
+  height: 100px;
 }
 
 /*Populaires*/
@@ -204,11 +207,18 @@ main figure{
   gap: 1em;
 }
 
-.img_populaire{
+#populaires figure{
   background-color: white;
-  flex: auto;
-  width: auto;
-  height: 143px;
+  margin: 0;
+  display: flex;
+  gap: 1em;
+}
+
+#populaires img{
+  width: 300px;
+  height: 200px;
+  border-radius: 20px 0 0 20px;
+  object-fit: cover;
 }
 
 /*Section activités*/
