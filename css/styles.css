@@ -233,48 +233,61 @@ main div, main figure{
 
 #activites{
   display: flex;
+  justify-content: space-between;
   gap: 2em;
 }
 
 #activites_container_l, #activites_container_r{
-  height: 445px;
   display: flex;
-  gap: 2em;
-  flex: 1;
+  width: 50%;
+  justify-content: space-between;
 }
 
-.img_large{
-  background-color: cadetblue;
-  flex: 1;
+#activites figure{
+  background-color: gray;
+  margin: 0;
+}
+
+#activites img{
+  width: 300px;
+  border-radius: 20px 20px 0 0;
+}
+
+.img_large img{
+  height: 500px;
+  object-fit: cover;
 }
 
 .img_split{
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  flex: 1;
+  gap: 2em;
 }
 
-.img_small_1{
-  background-color: darkgoldenrod;
-  height: 236px;
+.img_split img{
+  object-fit: cover;
 }
 
-.img_small_2{
-  background-color: darkgoldenrod;
-  height: 165px;
+.img_small_1 img{
+  height: 250px;
 }
 
-.img_small_3{
-  background-color: darkgoldenrod;
-  height: 195px;
+.img_small_2 img{
+  height: 150px;
 }
 
-.img_small_4{
-  background-color: darkgoldenrod;
-  height: 210px;
+.img_small_3 img{
+  height: 200px;
 }
 
+.img_small_4 img{
+  height: 200px;
+}
+
+#activites figcaption{
+  padding: 5px 0 5px 1em;
+}
 /*Footer*/
 footer{
   background-color: #f2f2f2;
