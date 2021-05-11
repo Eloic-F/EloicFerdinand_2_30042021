@@ -176,7 +176,7 @@ main{
 
 /*Border-radius*/
 main div, main figure{
-  border-radius: 20px;
+  border-radius: 25px;
 }
 
 /*Section hébergements et populaires*/
@@ -301,7 +301,7 @@ main div, main figure{
 
 #activites img{
   width: 300px;
-  border-radius: 20px 20px 0 0;
+  border-radius: 25px 25px 0 0;
 }
 
 .img_large img{
