@@ -187,7 +187,7 @@ main div, main figure{
 }
 
 #hebergements, #populaires{
-  padding: 2em 3em 3em 3em;
+  padding: 2em 3em 0 3em;
 }
 
 #heberg_pop figure{
@@ -230,13 +230,12 @@ main div, main figure{
 /*Populaires*/
 #populaires{
   background-color: #f2f2f2;
-  display: flex;
-  flex-direction: column;
   flex: 1;
 }
 
 #pop_head{
   display: inline-flex;
+  width: 100%;
   justify-content: space-between;
   align-items: center;
 }
