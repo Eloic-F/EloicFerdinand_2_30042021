@@ -11,7 +11,8 @@ nav li:hover{
 }
 
 #filtres p:hover{
-  box-shadow: 0 0 10px #0065fc;
+  box-shadow: 0 0 5px #0065fc;
+  cursor: pointer;
 }
 
 main img:hover, #activites img:hover{
