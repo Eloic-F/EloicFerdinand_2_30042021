@@ -15,10 +15,6 @@ nav li:hover{
   cursor: pointer;
 }
 
-main img:hover, #activites img:hover{
-  opacity: 0.5;
-}
-
 /*liens*/
 a{
   text-decoration: none;
@@ -256,7 +252,7 @@ main div, main figure{
 }
 
 #populaires img{
-  width: 100%;
+  width: 200px;
   height: 100%;
   border-radius: 20px 0 0 20px;
   object-fit: cover;
