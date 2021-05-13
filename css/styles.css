@@ -4,10 +4,9 @@ span, em{
 }
 
 /*hover*/
-nav li:hover{
+nav li:hover, nav p:hover{
   border-top: 3px solid #0065fc;
   color: #0065fc;
-  font-weight: bold;
 }
 
 #filtres p:hover{
@@ -33,39 +32,37 @@ header{
   margin-bottom: 2em;
 }
 
-h1{
-  margin-bottom: -10px;
-}
-
 /*zone superieure du header avec le logo et la nagivaiton*/
-header #bandeau{
+#bandeau{
   display: flex;
   justify-content: space-between;
-  gap: 2em;
 }
 
-header #logo{
-  padding-top: 2.5em;
-  flex: 2;
+#logo{
+  padding-top: 2em;
 }
 
 nav{
-  flex: 1;
+  display: flex;
+  justify-content: space-around;
 }
 
 nav ul{
-  list-style-type: none;
-  display: flex;
+  list-style: none;
+  display: inline-flex;
   justify-content: space-between;
-  margin-top: 0;
-  padding-left: 0;
+  margin: 0;
+  padding: 0;
+  flex: auto;
 }
 
-nav li{
-  padding: 2em 1em 0;
+nav li, nav p{
+  margin: 0;
+  padding: 2.5em 3em 0;
+  border-top: 3px solid transparent;
 }
 
-nav span{
+nav p{
   color: #0065fc;
 }
 
