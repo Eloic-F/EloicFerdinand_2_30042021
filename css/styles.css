@@ -110,19 +110,19 @@ input, button{
 /*Filtre du header*/
 
 #filtres{
-  height: 48px;
-  display: inline-flex;
-  gap: 2em;
+  display: flex;
+  flex-wrap: wrap;
   align-items: center;
   margin-top: 1.5em;
 }
 
 #filtres p{
   border: 2px solid #d9d9d9;
-  display: inline-flex;
+  display: flex;
   align-items: center;
   border-radius: 30px;
   padding-right: 1em;
+  margin-left: 2em;
 }
 
 #filtres i{
