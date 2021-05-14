@@ -276,6 +276,10 @@ main article{
   margin-top: auto;
 }
 
+#populaires h3{
+  margin-bottom: 0;
+}
+
 /*Notation*/
 main article .fa{
   color: #0065fc;
