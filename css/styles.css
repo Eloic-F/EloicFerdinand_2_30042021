@@ -68,7 +68,7 @@ nav p{
 
 /*Barre de recherche*/
 #barre_recherche{
-  display: inline-flex;
+  display: flex;
 }
 
 input::placeholder{
@@ -94,6 +94,7 @@ input, button{
   outline: none;
   font-size: 14pt;
   font-weight: bold;
+  padding-right: 0;
 }
 
 #submit{
