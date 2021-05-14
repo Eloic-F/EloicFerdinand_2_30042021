@@ -183,6 +183,10 @@ main article{
   border-radius: 25px;
 }
 
+main figure{
+  margin: 0;
+}
+
 /*Section hébergements et populaires*/
 #heberg_pop{
   display: flex;
@@ -213,13 +217,11 @@ main article{
   flex-wrap: wrap;
   justify-content: space-between;
   gap: 1.5em;
-  padding-bottom: 1em;
 }
 
-#img_hebergements a{
+#img_hebergements article{
   min-width: 250px;
   line-height: 0.7em;
-  flex: 1 30%;
 }
 
 #hebergements img{
@@ -229,7 +231,7 @@ main article{
   object-fit: cover;
 }
 
-#hebergements article > div{
+#hebergements figcaption{
   padding: 0 0 5px 1em;
 }
 
@@ -251,7 +253,7 @@ main article{
   gap: 3em;
 }
 
-#populaires article{
+#populaires figure{
   background-color: white;
   height: 180px;
   width: auto;
@@ -267,7 +269,7 @@ main article{
   object-fit: cover;
 }
 
-#populaires article div{
+#populaires figcaption{
   display: flex;
   flex-direction: column;
   padding-bottom: 1em;
