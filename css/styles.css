@@ -112,18 +112,20 @@ input, button{
 
 #filtres{
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
+  gap: 1em;
   margin-top: 1.5em;
 }
 
-#filtres p{
-  border: 2px solid #d9d9d9;
+#filtres_items{
   display: flex;
-  align-items: center;
+  gap: 1.5em;
+}
+
+#filtres_items p{
+  border: 2px solid #d9d9d9;
   border-radius: 30px;
   padding-right: 1em;
-  margin-left: 2em;
   cursor: pointer;
 }
 
@@ -141,7 +143,7 @@ input, button{
 
 /* Informations*/
 #informations{
-  display: inline-flex;
+  display: flex;
   align-items: center;
   gap: 1em;
   margin-top: 0.5em;
