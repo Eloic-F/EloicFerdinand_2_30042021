@@ -300,54 +300,57 @@ main article .fas{
 
 
 /*Section activités*/
-
 #activites{
   display: flex;
-  gap: 2em;
+  gap: 2.5em;
 }
 
 #activites_1, #activites_2{
   display: flex;
-  gap: 2em;
-  flex: 1;
-  
-}
-
-a, .img_split{
+  gap: 2.5em;
   flex: 1;
 }
 
-.img_split{
+.img_large, .img_colonne{
+  flex: 1;
+}
+
+.img_large{ 
+  border-radius: 0 0 20px 20px;
+}
+
+.img_colonne{
   display: flex;
   flex-direction: column;
-  gap: 2em;
+  justify-content: space-between;
 }
 
 #activites article{
   box-shadow: 0px 0px 15px #c9c9c9;
-}
-
-.img_small img{
-  height: 150px;
-}
-
-.img_medium img{
-  height: 200px;
+  border-radius: 20px;
 }
 
 .img_large img{
-  height: 450px;
+  height: 350px;
+}
+
+.img_medium img{
+  height: 150px;
+}
+
+.img_small img{
+  height: 100px;
 }
 
 #activites img{
   width: 100%;
-  border-radius: 25px 25px 0 0;
   object-fit: cover;
+  border-radius: 20px 20px 0 0;
 }
 
 #activites h3{
   margin: 0;
-  padding: 1em 0.5em 1em 1em;
+  padding: 1em;
 }
 
 /*Footer*/
