@@ -198,7 +198,6 @@ main figure{
 /*Section hébergements et populaires*/
 #heberg_pop{
   display: flex;
-  flex-wrap: wrap-reverse;
   gap: 2em;
   margin-bottom: 4em;
 }
@@ -356,11 +355,50 @@ main article .fas{
 /*Footer*/
 footer{
   background-color: #f2f2f2;
-  height: 217px;
   display: flex;
   padding: 2em 2.5% 4em;
 }
 
 .footer_box{
   flex: 1;
+}
+
+/********************/
+/***MEDIA QUERIES****/
+/********************/
+
+@media (max-width: 992px) {
+  h1{
+    color: red;
+  }
+
+  #heberg_pop{
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2em;
+    margin-bottom: 4em;
+  }
+
+  #activites{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5em;
+  }
+  
+  #activites_2{
+    flex-direction: row-reverse;
+    gap: 2.5em;
+    flex: 1;
+  }
+  
+}
+
+@media (max-width: 768px) {
+  h1{
+    color: green;
+  }
+
+  footer{
+    flex-direction: column;
+  }
 }
