@@ -187,7 +187,7 @@ main h4{
 }
 
 /*Border-radius*/
-main article{
+main article, main figure{
   border-radius: 25px;
 }
 
@@ -227,7 +227,7 @@ main figure{
   gap: 1.5em;
 }
 
-#img_hebergements a{
+#img_hebergements article{
   flex: 1 30%;
   line-height: 0.7em;
 }
@@ -240,7 +240,7 @@ main figure{
 }
 
 #hebergements figcaption{
-  padding: 0 0 5px 1em;
+  padding: 0 0 0.5rem 1em;
 }
 
 /*Populaires*/
