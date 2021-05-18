@@ -1,6 +1,19 @@
-/*font-weight*/
+/*font*/
 span, em{
   font-weight: bold;
+}
+
+h1, h2{
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+h3{
+  font-size: 1em;
+}
+
+h4{
+  font-size: 1.2em;
 }
 
 /*hover*/
@@ -180,15 +193,6 @@ main{
   width: 95%;
   margin: auto;
   margin-bottom: 4em;
-}
-
-/*Font-size*/
-main h2{
-  font-size: 1.8em;
-}
-
-main h4{
-  font-size: 1.5em;
 }
 
 /*Border-radius*/
