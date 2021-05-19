@@ -60,7 +60,7 @@ nav{
 
 nav ul{
   list-style: none;
-  display: inline-flex;
+  display: flex;
   justify-content: space-between;
   margin: 0;
   padding: 0;
@@ -385,8 +385,27 @@ footer{
 }
 
 @media (max-width: 1200px) {
+  nav li:hover, nav p:hover{
+    border-top: none;
+    color: #0065fc;
+  }
+  
   h1{
     color: orange;
+  }
+
+  nav{
+    flex-direction: column-reverse;
+    text-align: end;
+  }
+
+  nav p{
+    border-top: none;  
+  }
+
+  nav li{
+    padding-bottom: 1.5em;
+    border-top: none;
   }
 
   #heberg_pop p{
