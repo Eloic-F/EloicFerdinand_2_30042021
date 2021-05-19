@@ -470,4 +470,9 @@ footer{
     margin: 0;
     margin-bottom: 3em;
   }
+
+  header, #hebergements, #populaires, #activites, footer{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
 }
