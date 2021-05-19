@@ -276,7 +276,7 @@ main figure{
 }
 
 #populaires img{
-  width: 45%;
+  width: 40%;
   height: 100%;
   border-radius: 20px 0 0 20px;
   object-fit: cover;
@@ -465,14 +465,47 @@ footer{
 }
 
 @media (max-width: 576px) {
+  header{
+    padding: 0;
+  }
+
+  form, #filtres, #informations, #hebergements, #populaires, #activites, footer{
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+
+  #logo, h1{
+    padding-left: 5%;
+  }
+  
+  #bandeau{
+    display: block;
+    padding: 0;
+  }
+
+  nav p{
+    position: absolute;
+    top: 0.5em;
+    right: 0;
+  }
+
+  nav ul{
+    justify-content: flex-start;
+  }
+  
+  nav li{
+    border-bottom: 3px solid #f2f2f2;
+    flex: 1 50%;
+    text-align: center;
+    font-size: 1.2em;
+  }
+  nav li:hover{
+    border-bottom: 3px solid #0065fc;
+  }
+
   main{
     width: 100%;
     margin: 0;
     margin-bottom: 3em;
-  }
-
-  header, #hebergements, #populaires, #activites, footer{
-    padding-left: 5%;
-    padding-right: 5%;
   }
 }
