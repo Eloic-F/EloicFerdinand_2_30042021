@@ -346,13 +346,17 @@ main article .fas{
 }
 
 .img_small img{
-  height: 100px;
+  height: 110px;
 }
 
 #activites img{
   width: 100%;
   object-fit: cover;
   border-radius: 20px 20px 0 0;
+}
+
+#activites_2 .img_small img{
+  object-position: 50% 45%;
 }
 
 #activites h3{
