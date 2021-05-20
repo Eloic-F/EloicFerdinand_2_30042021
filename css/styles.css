@@ -111,7 +111,7 @@ input, button{
   padding-right: 0;
 }
 
-#submit{
+#submit_large{
   background-color: #0065fc;
   color: white;
   border: 1px solid #0065fc;
@@ -121,8 +121,8 @@ input, button{
   font-size: 14pt;
 }
 
-#submit span{
-  font-size: 1.2em;
+#submit_small{
+  display: none;
 }
 
 /*Filtre du header*/
@@ -504,6 +504,28 @@ footer{
   }
   nav li:hover{
     border-bottom: 3px solid #0065fc;
+  }
+
+  form{
+    width: 100%;
+  }
+
+  form input{
+    width: 90%;
+  }
+
+  #submit_large{
+    display: none;
+  }
+
+  #submit_small{
+    display: inline;
+    background-color: #0065fc;
+    color: white;
+    border: 1px solid #0065fc;
+    border-radius: 20px;
+    cursor: pointer;
+    padding: 0 1.5em;
   }
 
   main{
