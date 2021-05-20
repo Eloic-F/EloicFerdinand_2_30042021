@@ -375,10 +375,6 @@ footer{
 /***MEDIA QUERIES****/
 /********************/
 @media (max-width: 1400px) {
-  h1{
-    color: violet;
-  }
-
   #heberg_pop p{
     font-size: 0.8em;
   }
@@ -388,10 +384,6 @@ footer{
   nav li:hover, nav p:hover{
     border-top: none;
     color: #0065fc;
-  }
-  
-  h1{
-    color: orange;
   }
 
   nav{
@@ -433,10 +425,6 @@ footer{
 }
 
 @media (max-width: 768px) {
-  h1{
-    color: green;
-  }
-
   #img_hebergements article{
     flex: 1 100%;
   }
