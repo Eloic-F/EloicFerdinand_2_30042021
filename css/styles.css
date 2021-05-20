@@ -478,7 +478,7 @@ footer{
     display: block;
   }
 
-  #logo{
+  #logo, #ancre_activites h2{
     padding-left: 5%;
   }
 
