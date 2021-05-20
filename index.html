@@ -26,27 +26,29 @@
                 <p><span><a href="#">S'inscrire</a></span></p>
             </nav>
         </div>
-        <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-        <p>En plein centre ville ou en pleine nature</p>
-        <form id="barre_recherche" method="POST" action="">
-            <div id="map_marker">
-                <p><i class="fas fa-map-marker-alt fa-lg"></i></p>
+        <div id="bottom_header">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <p>En plein centre ville ou en pleine nature</p>
+            <form id="barre_recherche" method="POST" action="">
+                <div id="map_marker">
+                    <p><i class="fas fa-map-marker-alt fa-lg"></i></p>
+                </div>
+                <input type="search" placeholder="Marseille, France" required>
+                <button id="submit" type="submit">Recherche</button>
+            </form>
+            <div id="filtres">
+                <p><span>Filtres</span></p>
+                <div id="filtres_items">
+                    <p><i class="fas fa-money-bill-wave fa-lg"></i><span>Économique</span></p>
+                    <p><i class="fas fa-child fa-lg"></i><span>Familial</span></p>
+                    <p><i class="fas fa-heart fa-lg"></i><span>Romantique</span></p>
+                    <p><i class="fas fa-dog fa-lg"></i><span>Animaux autorisés</span></p>
+                </div>
             </div>
-            <input type="search" placeholder="Marseille, France" required>
-            <button id="submit" type="submit">Recherche</button>
-        </form>
-        <div id="filtres">
-            <p><span>Filtres</span></p>
-            <div id="filtres_items">
-                <p><i class="fas fa-money-bill-wave fa-lg"></i><span>Économique</span></p>
-                <p><i class="fas fa-child fa-lg"></i><span>Familial</span></p>
-                <p><i class="fas fa-heart fa-lg"></i><span>Romantique</span></p>
-                <p><i class="fas fa-dog fa-lg"></i><span>Animaux autorisés</span></p>
+            <div id="informations">
+                <i class="fas fa-info"></i>
+                <p>Plus de 500 logements sont disponibles </p>
             </div>
-        </div>
-        <div id="informations">
-            <i class="fas fa-info"></i>
-            <p>Plus de 500 logements sont disponibles </p>
         </div>
     </header>
     <main>

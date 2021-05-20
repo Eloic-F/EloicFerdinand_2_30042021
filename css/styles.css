@@ -469,28 +469,30 @@ footer{
     padding: 0;
   }
 
-  form, #filtres, #informations, #hebergements, #populaires, #activites, footer{
+  #bottom_header, #hebergements, #populaires, #activites, footer{
     padding-left: 5%;
     padding-right: 5%;
-  }
-
-  #logo, h1{
-    padding-left: 5%;
   }
   
   #bandeau{
     display: block;
-    padding: 0;
+  }
+
+  #logo{
+    padding-left: 5%;
   }
 
   nav p{
     position: absolute;
-    top: 0.5em;
+    top: 0em;
     right: 0;
+    padding-top: 1.5em;
+    font-size: 1.5em;
   }
 
   nav ul{
     justify-content: flex-start;
+    margin-bottom: 1em;
   }
   
   nav li{
