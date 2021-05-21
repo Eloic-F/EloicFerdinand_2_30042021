@@ -21,7 +21,7 @@ nav li:hover, nav p:hover{
   color: #0065fc;
 }
 
-#filtres p:hover{
+#filtres a:hover{
   box-shadow: 0 0 5px #0065fc;
 }
 
@@ -141,7 +141,7 @@ input, button{
   gap: 1.5em;
 }
 
-#filtres_items p{
+#filtres_items a{
   display: flex;
   align-items: center;
   border: 2px solid #d9d9d9;
@@ -356,7 +356,7 @@ main article .fas{
 }
 
 #activites_2 .img_small img{
-  object-position: 50% 45%;
+  object-position: 50% 25%;
 }
 
 #activites h3{
