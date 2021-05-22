@@ -87,10 +87,6 @@ input::placeholder{
   font-weight: bold;
 }
 
-input, button{
-  padding: 1em;
-}
-
 #map_marker{
   background-color: #f2f2f2;
   border: 1px solid #f2f2f2;
@@ -108,7 +104,11 @@ input, button{
   outline: none;
   font-size: 14pt;
   font-weight: bold;
-  padding-right: 0;
+  padding: 0 0 0 1em;
+}
+
+button{
+  padding: 0 0.7em;
 }
 
 #submit_large{
