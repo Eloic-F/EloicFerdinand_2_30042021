@@ -388,20 +388,6 @@ footer{
     color: #0065fc;
   }
 
-  nav{
-    flex-direction: column-reverse;
-    text-align: end;
-  }
-
-  nav p{
-    border-top: none;  
-  }
-
-  nav li{
-    padding-bottom: 1.5em;
-    border-top: none;
-  }
-
   #heberg_pop p{
     font-size: 1em;
   }
@@ -427,6 +413,19 @@ footer{
 }
 
 @media (max-width: 768px) {
+  nav{
+    flex-direction: column-reverse;
+    text-align: end;
+  }
+
+  nav p{
+    border-top: none;  
+  }
+
+  nav li{
+    padding-bottom: 1.5em;
+    border-top: none;
+  }
   #img_hebergements article{
     flex: 1 100%;
   }
