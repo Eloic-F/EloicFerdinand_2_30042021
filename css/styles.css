@@ -383,11 +383,6 @@ footer{
 }
 
 @media (max-width: 1200px) {
-  nav li:hover, nav p:hover{
-    border-top: none;
-    color: #0065fc;
-  }
-
   #heberg_pop p{
     font-size: 1em;
   }
@@ -413,6 +408,11 @@ footer{
 }
 
 @media (max-width: 768px) {
+  nav li:hover, nav p:hover{
+    border-top: none;
+    color: #0065fc;
+  }
+  
   nav{
     flex-direction: column-reverse;
     text-align: end;
