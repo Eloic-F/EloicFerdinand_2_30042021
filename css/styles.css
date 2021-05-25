@@ -496,7 +496,7 @@ footer{
     border-bottom: 3px solid #0065fc;
   }
 
-  form{
+  #barre_recherche{
     width: 100%;
   }
 
@@ -516,7 +516,7 @@ footer{
     border-radius: 20px;
     cursor: pointer;
     padding: 0 1.5em;
-    margin-left: -1em;
+    margin-left: -1.4em;
   }
 
   main{
