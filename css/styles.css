@@ -79,7 +79,7 @@ nav p{
 
 /*Barre de recherche*/
 #barre_recherche{
-  display: flex;
+  display: inline-flex;
 }
 
 input::placeholder{
@@ -103,7 +103,7 @@ input::placeholder{
   outline: none;
   font-size: 14pt;
   font-weight: bold;
-  padding: 0 0 0 1em;
+  padding: 0 1em 0;
 }
 
 button{
@@ -500,7 +500,7 @@ footer{
     width: 100%;
   }
 
-  form input{
+  #barre_recherche input{
     width: 90%;
   }
 
@@ -516,6 +516,7 @@ footer{
     border-radius: 20px;
     cursor: pointer;
     padding: 0 1.5em;
+    margin-left: -1em;
   }
 
   main{
