@@ -152,7 +152,6 @@ button{
 
 #filtres i{
   background-color: #deebff;
-  border: 2px solid #deebff;
   width: 2em;
   height: 2em;
   line-height: 2em;
@@ -513,7 +512,7 @@ footer{
     display: inline;
     background-color: #0065fc;
     color: white;
-    border: 1px solid #0065fc;
+    border: 0;
     border-radius: 20px;
     cursor: pointer;
     padding: 0 1.5em;
