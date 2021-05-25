@@ -89,7 +89,6 @@ input::placeholder{
 
 #map_marker{
   background-color: #f2f2f2;
-  border: 1px solid #f2f2f2;
   border-radius: 20px 0 0 20px;
   display: inline-flex;
   align-items: center;
@@ -114,7 +113,7 @@ button{
 #submit_large{
   background-color: #0065fc;
   color: white;
-  border: 1px solid #0065fc;
+  border: 0;
   border-radius: 0 20px 20px 0;
   cursor: pointer;
   font-weight: bold;
