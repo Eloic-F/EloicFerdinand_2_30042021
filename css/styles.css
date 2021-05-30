@@ -377,12 +377,6 @@ footer{
 /********************/
 /***MEDIA QUERIES****/
 /********************/
-@media (max-width: 1400px) {
-  #heberg_pop p{
-    font-size: 0.8em;
-  }
-}
-
 @media (max-width: 1200px) {
   #heberg_pop p{
     font-size: 1em;
