@@ -37,7 +37,7 @@ body{
   font-family: "Raleway", sans-serif;
 }
 
-/*header*/
+/***HEADER***/
 header{
   padding: 0 2.5%;
   margin-bottom: 2em;
@@ -185,6 +185,8 @@ button{
 #filtres i, #informations i{
   color: #0065fc;
 }
+
+/***MAIN***/
 
 /*ajustement des marges dans la partie main*/
 main{
@@ -363,7 +365,7 @@ main article .fas{
   padding: 1em;
 }
 
-/*Footer*/
+/***FOOTER***/
 footer{
   background-color: #f2f2f2;
   display: flex;
@@ -374,9 +376,9 @@ footer{
   flex: 1;
 }
 
-/********************/
-/***MEDIA QUERIES****/
-/********************/
+/*******************/
+/***MEDIA QUERIES***/
+/*******************/
 @media (max-width: 1200px) {
   #heberg_pop p{
     font-size: 1em;
