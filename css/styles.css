@@ -78,6 +78,10 @@ nav p{
 }
 
 /*Barre de recherche*/
+input, #submit_large{
+  font-family: inherit;
+}
+
 #barre_recherche{
   display: inline-flex;
 }
