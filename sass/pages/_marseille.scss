@@ -8,9 +8,7 @@ main {
 }
 
 /*Border-radius*/
-#hosting-grid a,
-#popular-grid a,
-.activity-grid a {
+.hosting-card, .popular-card, .activity-card {
   border-radius: 25px;
 }
 
@@ -25,22 +23,20 @@ main figure {
   margin-bottom: 4em;
 }
 
-#hosting,
-#popular {
+#hosting, #popular {
   padding: 2em 3em 3em 3em;
   border-radius: 25px;
 }
 
-#hosting-grid a,
-#popular-grid a {
-  background-color: #ffff;
+.hosting-card, .popular-card {
+  background-color: map-get($color-theme, card);
   padding: 6px;
-  box-shadow: 0px 0px 15px #c9c9c9;
+  box-shadow: 0px 0px 15px map-get($color-theme, shadow);
 }
 
 /*Partie hébergements*/
 #hosting {
-  background-color: #f2f2f2;
+  background-color: map-get($color-theme, container);
   flex: 2;
 }
 
@@ -48,27 +44,28 @@ main figure {
   display: flex;
   flex-wrap: wrap;
   gap: 1.5em;
+  a {
+    flex: 1 30%;
+    line-height: 0.7em;
+  }
 }
 
-#hosting-grid a {
-  flex: 1 30%;
-  line-height: 0.7em;
-}
-
-.hosting-card__image {
-  width: 100%;
-  height: 150px;
-  border-radius: 20px 20px 0 0;
-  object-fit: cover;
-}
-
-.hosting-card__caption {
-  padding: 0 0 0.5rem 1em;
+.hosting-card{
+  min-width: 300px;
+  &__image {
+    width: 100%;
+    height: 150px;
+    border-radius: 20px 20px 0 0;
+    object-fit: cover;
+  }
+  &__caption{
+    padding: 0 0 0.5rem 1em;
+  }
 }
 
 /*Populaires*/
 #popular {
-  background-color: #f2f2f2;
+  background-color: map-get($color-theme, container);
   flex: 1;
 }
 
@@ -85,42 +82,36 @@ main figure {
 }
 
 .popular-card {
-  background-color: white;
+  background-color: map-get($color-theme, card);
   height: 180px;
   display: flex;
   gap: 1em;
-}
-
-.popular-card__image {
-  width: 40%;
-  height: 100%;
-  border-radius: 20px 0 0 20px;
-  object-fit: cover;
-}
-
-.popular-card__caption {
-  display: flex;
-  flex-direction: column;
-  padding-bottom: 1em;
-}
-
-.popular-card__caption span {
-  margin-top: auto;
-}
-
-.popular-card__caption h3 {
-  margin-bottom: 0;
+  &__image{
+    width: 40%;
+    height: 100%;
+    border-radius: 20px 0 0 20px;
+    object-fit: cover;
+  }
+  &__caption{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 1em;
+    span{
+      margin-top: auto;
+    }
+    h3{
+      margin-bottom: 0;
+    }
+  }
 }
 
 /*Notation*/
-.hosting-card__caption .fa,
-.popular-card__caption .fa {
-  color: #0065fc;
+.hosting-card__caption .fa, .popular-card__caption .fa {
+  color: map-get($color-theme, dominant);
 }
 
-.hosting-card__caption .fas,
-.popular-card__caption .fas {
-  color: #d9d9d9;
+.hosting-card__caption .fas, .popular-card__caption .fas {
+  color: map-get($color-theme, item-border);
 }
 
 /*Section activités*/
@@ -129,30 +120,26 @@ main figure {
   gap: 2.5em;
 }
 
-#activites_1,
-#activites_2 {
+#activites_1, #activites_2 {
   display: flex;
   gap: 2.5em;
   flex: 1;
-}
-
-.img-large,
-.img-column {
-  flex: 1;
-}
-
-.img-large {
-  border-radius: 0 0 20px 20px;
-}
-
-.img-column {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
+  .img-large, .img-column {
+    flex: 1;
+  }
+  .img-large {
+    border-radius: 0 0 20px 20px;
+  }
+  
+  .img-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
 }
 
 .activity-card {
-  box-shadow: 0px 0px 15px #c9c9c9;
+  box-shadow: 0px 0px 15px map-get($color-theme, shadow);
   border-radius: 20px;
 }
 
