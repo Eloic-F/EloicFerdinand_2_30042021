@@ -1,0 +1,16 @@
+/***FOOTER***/
+footer {
+  background-color: map-get($color-theme, container);
+  display: flex;
+  padding: 2em 2.5% 4em;
+  @include device(tablet){
+    flex-direction: column;
+    gap: 1em;
+  }
+  @include device(smartphone){
+    padding-left: 5%;
+  }
+  .footer-box {
+    flex: 1;
+  }
+}

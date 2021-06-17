@@ -1,0 +1,82 @@
+@import "./utils/variables";
+@import "./base/font";
+@import "./base/lien";
+@import "./layouts/header";
+@import "./layouts/footer";
+@import "./pages/marseille";
+  
+  /*******************/
+  /***MEDIA QUERIES***/
+  /*******************/
+  @media (max-width: 1200px) {
+    #hosting-popular p{
+      font-size: 1em;
+    }
+  
+    #hosting-popular{
+      display: flex;
+      flex-direction: column-reverse;
+      gap: 2em;
+      margin-bottom: 4em;
+    }
+  
+    #activities-grid{
+      display: flex;
+      flex-direction: column;
+      gap: 2.5em;
+    }
+    
+    #activites_2{
+      flex-direction: row-reverse;
+      gap: 2.5em;
+      flex: 1;
+    } 
+  }
+  
+  @media (max-width: 768px) {
+    #hosting-grid a{
+      flex: 1 100%;
+    }
+  
+    #activities-grid{
+      gap: 0;
+    }
+  
+    #activites_1, #activites_2{
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #activities-grid, #activites_1, #activites_2, .img-column{
+      gap: 2em;
+    }
+  
+    #activities-grid img{
+      height: 200px;
+    }
+  }
+  
+  @media (max-width: 576px) {  
+    .header-bottom, #hosting, #popular, #activities-grid{
+      padding-left: 5%;
+      padding-right: 5%;
+    }
+  
+    #activities h2{
+      padding-left: 5%;
+    }
+  
+    main{
+      width: 100%;
+      margin: 0;
+      margin-bottom: 3em;
+    }
+  
+    #hosting{
+      background-color: white;
+    }
+  
+    #popular{
+      border-radius: 0;
+    }
+  }

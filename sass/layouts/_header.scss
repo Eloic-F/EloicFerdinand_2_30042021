@@ -1,0 +1,229 @@
+$color-theme: (
+  dominant:#0065fc,
+  container:#f2f2f2,
+  card:white,
+  icon-bckgrd: #deebff,
+  item-border: #d9d9d9
+);
+
+$breakpoints: (
+  medium: 1200px,
+  tablet: 768px,
+  smartphone: 576px
+);
+
+@mixin device ($size){
+  @media screen and (max-width: map-get($breakpoints, $size)) {
+    @content;
+  }
+}
+
+header {
+  padding: 0 2.5%;
+  margin-bottom: 2em;
+  @include device(smartphone){
+    padding: 0;
+  }
+}
+
+/*zone superieure du header avec le logo et la nagivaiton*/
+.header-top {
+  display: flex;
+  justify-content: space-between;
+  @include device(smartphone){
+    display: block;
+  }
+  .header-top__logo{
+    padding-top: 2em;
+    @include device(smartphone){
+      padding-left: 5%;
+    }
+  }
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  @include device(tablet){
+    flex-direction: column-reverse;
+    text-align: end;
+  }
+  ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    flex: auto;
+    @include device(smartphone){
+      justify-content: flex-start;
+      margin-bottom: 1em;}
+  }
+  li, p {
+    margin: 0;
+    padding: 2.5em 3em 0;
+    border-top: 3px solid transparent;
+    @include device(tablet){
+      border-top: none;
+    }
+    &:hover {
+      border-top: 3px solid map-get($color-theme, dominant);
+      color: map-get($color-theme, dominant);
+      @include device(tablet){
+        border-top: none;
+        color: map-get($color-theme, dominant);
+      }
+    }
+  }
+  li{
+    @include device(tablet){
+      padding-bottom: 1.5em;
+    }
+    @include device(smartphone){
+      border-bottom: 3px solid #f2f2f2;
+      flex: 1 50%;
+      text-align: center;
+      font-size: 1.2em;
+      padding: 1.5em 0;
+    }
+    &:hover {
+      @include device(smartphone){
+        border-bottom: 3px solid #0065fc;
+      }
+    }
+  }
+  p {
+    color: map-get($color-theme, dominant);
+    @include device(smartphone){
+      position: absolute;
+      top: 0em;
+      right: 0;
+      padding-right: 5%;
+      font-size: 1.2em;}
+  }
+}
+
+/*Barre de recherche*/
+.form {
+  display: inline-flex;
+  @include device(smartphone){
+    width: 100%;
+  }
+  &__map {
+    background-color: map-get($color-theme, container);
+    border-radius: 20px 0 0 20px;
+    display: inline-flex;
+    align-items: center;
+    padding: 0 1.4em;
+  }
+  &__input {
+    border-top: 1px solid map-get($color-theme, container);
+    border-bottom: 1px solid map-get($color-theme, container);
+    border-left: none;
+    border-right: none;
+    outline: none;
+    font-size: 14pt;
+    font-weight: bold;
+    padding: 0 1em 0;
+    @include device(smartphone){
+      width: 90%;
+    }
+    &::placeholder {
+      color: black;
+      font-weight: bold;
+    }
+  }
+  &__btn {
+    padding: 0 0.7em;
+    &--search-text {
+      background-color: map-get($color-theme, dominant);
+      color: map-get($color-theme, card);
+      border: 0;
+      border-radius: 0 20px 20px 0;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14pt;
+      @include device(smartphone){
+        display: none;
+      }
+    }
+    &--search-icon {
+      display: none;
+      @include device(smartphone){
+        display: inline;
+        background-color: #0065fc;
+        color: white;
+        border: 0;
+        border-radius: 20px;
+        cursor: pointer;
+        padding: 0 1.5em;
+        margin-left: -1.4em;
+      }
+    }
+  }
+  &__input, &__btn--search-text {
+    font-family: inherit;
+    }
+}
+
+
+/*Filtre du header*/
+
+.filtres {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1em;
+  margin-top: 1.5em;
+  &__category {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5em;
+    a {
+      display: flex;
+      align-items: center;
+      border: 2px solid map-get($color-theme, item-border);
+      border-radius: 30px;
+      padding-right: 1em;
+      margin: 0;
+      cursor: pointer;
+      &:hover {
+        box-shadow: 0 0 5px map-get($color-theme, dominant);
+      }
+    }
+  }
+  i {
+    background-color: map-get($color-theme, icon-bckgrd);
+    width: 2em;
+    height: 2em;
+    line-height: 2em;
+    text-align: center;
+    border-radius: 50%;
+    margin: -2px;
+    margin-right: 0.5em;
+  }
+}
+
+/* Informations*/
+#informations {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+  margin-top: 0.5em;
+  i {
+    display: inline-flex;
+    width: 30px;
+    min-width: 30px;
+    height: 30px;
+    min-height: 30px;
+    border: 1px solid map-get($color-theme, item-border);
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+/*Icônes header*/
+.filtres i, #informations i {
+  color: map-get($color-theme, dominant);
+}
