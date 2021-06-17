@@ -141,31 +141,26 @@ main figure {
 .activity-card {
   box-shadow: 0px 0px 15px map-get($color-theme, shadow);
   border-radius: 20px;
+  &__image {
+    width: 100%;
+    object-fit: cover;
+    border-radius: 20px 20px 0 0;
+    &--small {
+      height: 110px;
+    }
+    &--medium {
+      height: 150px;
+    }
+    &--large {
+      height: 350px;
+    }
+  }
+  &__caption h3 {
+    margin: 0;
+    padding: 1em;
+  }
 }
-
-.img-large .activity-card__image {
-  height: 350px;
-}
-
-.image--medium {
-  height: 150px;
-}
-
-.image--small {
-  height: 110px;
-}
-
-#activities-grid .activity-card__image {
-  width: 100%;
-  object-fit: cover;
-  border-radius: 20px 20px 0 0;
-}
-
-#activites_2 .img_small img {
+/*Obect-position pour Notre-Dame-de-la-Garde*/
+#activites_2 .activity-card__image--small {
   object-position: 50% 25%;
-}
-
-#activities-grid h3 {
-  margin: 0;
-  padding: 1em;
 }
