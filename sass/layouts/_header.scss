@@ -1,24 +1,3 @@
-$color-theme: (
-  dominant:#0065fc,
-  container:#f2f2f2,
-  card:white,
-  icon-bckgrd: #deebff,
-  item-border: #d9d9d9,
-  shadow: #c9c9c9
-);
-
-$breakpoints: (
-  medium: 1200px,
-  tablet: 768px,
-  smartphone: 576px
-);
-
-@mixin device ($size){
-  @media screen and (max-width: map-get($breakpoints, $size)) {
-    @content;
-  }
-}
-
 header {
   padding: 0 2.5%;
   margin-bottom: 2em;
@@ -27,7 +6,7 @@ header {
   }
 }
 
-/*zone superieure du header avec le logo et la nagivaiton*/
+/*zone superieure du header avec le logo et la navigation*/
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -103,7 +82,13 @@ nav {
       font-size: 1.2em;}
   }
 }
-
+/*zone inferieure du header avec barre de recherche et filtres*/
+.header-bottom{
+  @include device(smartphone){
+    padding-left: 5%;
+    padding-right: 5%;
+  }
+}
 /*Barre de recherche*/
 .form {
   display: inline-flex;

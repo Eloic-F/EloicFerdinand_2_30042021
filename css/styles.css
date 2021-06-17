@@ -35,7 +35,7 @@ header {
   }
 }
 
-/*zone superieure du header avec le logo et la nagivaiton*/
+/*zone superieure du header avec le logo et la navigation*/
 .header-top {
   display: flex;
   justify-content: space-between;
@@ -127,6 +127,14 @@ nav p {
     right: 0;
     padding-right: 5%;
     font-size: 1.2em;
+  }
+}
+
+/*zone inferieure du header avec barre de recherche et filtres*/
+@media screen and (max-width: 576px) {
+  .header-bottom {
+    padding-left: 5%;
+    padding-right: 5%;
   }
 }
 
@@ -283,11 +291,17 @@ footer .footer-box {
 }
 
 /***MAIN***/
-/*ajustement des marges dans la partie main*/
 main {
   width: 95%;
   margin: auto;
   margin-bottom: 4em;
+}
+@media screen and (max-width: 576px) {
+  main {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 3em;
+  }
 }
 
 /*Border-radius*/
@@ -304,6 +318,19 @@ main figure {
   display: flex;
   gap: 2em;
   margin-bottom: 4em;
+}
+@media screen and (max-width: 1200px) {
+  #hosting-popular {
+    display: flex;
+    flex-direction: column-reverse;
+    gap: 2em;
+    margin-bottom: 4em;
+  }
+}
+@media screen and (max-width: 1200px) {
+  #hosting-popular p {
+    font-size: 1em;
+  }
 }
 
 #hosting, #popular {
@@ -322,6 +349,11 @@ main figure {
   background-color: #f2f2f2;
   flex: 2;
 }
+@media screen and (max-width: 576px) {
+  #hosting {
+    background-color: white;
+  }
+}
 
 #hosting-grid {
   display: flex;
@@ -332,9 +364,19 @@ main figure {
   flex: 1 30%;
   line-height: 0.7em;
 }
+@media screen and (max-width: 768px) {
+  #hosting-grid a {
+    flex: 1 100%;
+  }
+}
 
 .hosting-card {
   min-width: 300px;
+}
+@media screen and (max-width: 576px) {
+  .hosting-card {
+    min-width: 0;
+  }
 }
 .hosting-card__image {
   width: 100%;
@@ -350,6 +392,11 @@ main figure {
 #popular {
   background-color: #f2f2f2;
   flex: 1;
+}
+@media screen and (max-width: 576px) {
+  #popular {
+    border-radius: 0;
+  }
 }
 
 #popular-head {
@@ -398,15 +445,41 @@ main figure {
 }
 
 /*Section activités*/
+@media screen and (max-width: 576px) {
+  #activities h2 {
+    padding-left: 5%;
+  }
+}
+
 #activities-grid {
   display: flex;
   gap: 2.5em;
+}
+@media screen and (max-width: 1200px) {
+  #activities-grid {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+  #activites_2 {
+    flex-direction: row-reverse;
+    gap: 2.5em;
+    flex: 1;
+  }
 }
 
 #activites_1, #activites_2 {
   display: flex;
   gap: 2.5em;
   flex: 1;
+}
+@media screen and (max-width: 768px) {
+  #activites_1, #activites_2 {
+    display: flex;
+    flex-direction: column;
+  }
 }
 #activites_1 .img-large, #activites_1 .img-column, #activites_2 .img-large, #activites_2 .img-column {
   flex: 1;
@@ -438,88 +511,32 @@ main figure {
 .activity-card__image--large {
   height: 350px;
 }
+@media screen and (max-width: 768px) {
+  .activity-card__image {
+    height: 200px;
+  }
+}
 .activity-card__caption h3 {
   margin: 0;
   padding: 1em;
 }
 
-/*Obect-position pour Notre-Dame-de-la-Garde*/
-#activites_2 .activity-card__image--small {
-  object-position: 50% 25%;
-}
-
-/*******************/
-/***MEDIA QUERIES***/
-/*******************/
-@media (max-width: 1200px) {
-  #hosting-popular p {
-    font-size: 1em;
-  }
-
-  #hosting-popular {
-    display: flex;
-    flex-direction: column-reverse;
-    gap: 2em;
-    margin-bottom: 4em;
-  }
-
-  #activities-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 2.5em;
-  }
-
-  #activites_2 {
-    flex-direction: row-reverse;
-    gap: 2.5em;
-    flex: 1;
-  }
-}
-@media (max-width: 768px) {
-  #hosting-grid a {
-    flex: 1 100%;
-  }
-
-  #activities-grid {
-    gap: 0;
-  }
-
-  #activites_1, #activites_2 {
-    display: flex;
-    flex-direction: column;
-  }
-
+@media screen and (max-width: 768px) {
   #activities-grid, #activites_1, #activites_2, .img-column {
     gap: 2em;
   }
-
-  #activities-grid img {
-    height: 200px;
-  }
 }
-@media (max-width: 576px) {
-  .header-bottom, #hosting, #popular, #activities-grid {
+
+@media screen and (max-width: 576px) {
+  #hosting, #popular, #activities-grid {
     padding-left: 5%;
     padding-right: 5%;
   }
+}
 
-  #activities h2 {
-    padding-left: 5%;
-  }
-
-  main {
-    width: 100%;
-    margin: 0;
-    margin-bottom: 3em;
-  }
-
-  #hosting {
-    background-color: white;
-  }
-
-  #popular {
-    border-radius: 0;
-  }
+/*Obect-position pour Notre-Dame-de-la-Garde*/
+#activites_2 .activity-card__image--small {
+  object-position: 50% 25%;
 }
 
 /*# sourceMappingURL=styles.css.map */
