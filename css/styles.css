@@ -230,6 +230,7 @@ nav p {
   padding-right: 1em;
   margin: 0;
   cursor: pointer;
+  transition: all 300ms ease-out;
 }
 .filtres__category a:hover {
   box-shadow: 0 0 5px #0065fc;
@@ -305,7 +306,9 @@ main {
 }
 
 /*Border-radius*/
-.hosting-card, .popular-card, .activity-card {
+.hosting-card,
+.popular-card,
+.activity-card {
   border-radius: 25px;
 }
 
@@ -333,7 +336,8 @@ main figure {
   }
 }
 
-#hosting, #popular {
+#hosting,
+#popular {
   padding: 2em 3em 3em 3em;
   border-radius: 25px;
 }
@@ -342,6 +346,13 @@ main figure {
   background-color: white;
   padding: 6px;
   box-shadow: 0px 0px 15px #c9c9c9;
+}
+
+#hosting-grid a, #popular-grid a {
+  transition: transform 300ms ease-in-out;
+}
+#hosting-grid a:hover, #popular-grid a:hover {
+  transform: scale(1.05);
 }
 
 /*Partie hébergements*/
@@ -436,11 +447,13 @@ main figure {
 }
 
 /*Notation*/
-.hosting-card__caption .fa, .popular-card__caption .fa {
+.hosting-card__caption .fa,
+.popular-card__caption .fa {
   color: #0065fc;
 }
 
-.hosting-card__caption .fas, .popular-card__caption .fas {
+.hosting-card__caption .fas,
+.popular-card__caption .fas {
   color: #d9d9d9;
 }
 
@@ -470,24 +483,31 @@ main figure {
   }
 }
 
-#activites_1, #activites_2 {
+#activites_1,
+#activites_2 {
   display: flex;
   gap: 2.5em;
   flex: 1;
 }
 @media screen and (max-width: 768px) {
-  #activites_1, #activites_2 {
+  #activites_1,
+#activites_2 {
     display: flex;
     flex-direction: column;
   }
 }
-#activites_1 .img-large, #activites_1 .img-column, #activites_2 .img-large, #activites_2 .img-column {
+#activites_1 .img-large,
+#activites_1 .img-column,
+#activites_2 .img-large,
+#activites_2 .img-column {
   flex: 1;
 }
-#activites_1 .img-large, #activites_2 .img-large {
+#activites_1 .img-large,
+#activites_2 .img-large {
   border-radius: 0 0 20px 20px;
 }
-#activites_1 .img-column, #activites_2 .img-column {
+#activites_1 .img-column,
+#activites_2 .img-column {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -522,13 +542,18 @@ main figure {
 }
 
 @media screen and (max-width: 768px) {
-  #activities-grid, #activites_1, #activites_2, .img-column {
+  #activities-grid,
+#activites_1,
+#activites_2,
+.img-column {
     gap: 2em;
   }
 }
 
 @media screen and (max-width: 576px) {
-  #hosting, #popular, #activities-grid {
+  #hosting,
+#popular,
+#activities-grid {
     padding-left: 5%;
     padding-right: 5%;
   }
