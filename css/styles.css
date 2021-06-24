@@ -82,6 +82,7 @@ nav li, nav p {
   margin: 0;
   padding: 2.5em 3em 0;
   border-top: 3px solid transparent;
+  transition: all 400ms ease-in-out;
 }
 @media screen and (max-width: 768px) {
   nav li, nav p {
